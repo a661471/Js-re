@@ -1,14 +1,14 @@
 #SUBSCRIBED https://raw.githubusercontent.com/QGCliveDavis/Module/main/STASH/Culler.stoverride
-name: 百度免流信息面板
-desc: 显示免流地区，需名为百度免流的本地代理
+name: 云盘免流信息面板
+desc: 显示免流地区，需名为云盘的本地代理
 
 tiles:
-  - name: BaiduCellar-Tile
+  - name: YunPanCellar-Tile
     interval: 600
 script-providers:
-  BaiduCellar-Tile:
-    url: https://raw.githubusercontent.com/QGCliveDavis/Module/main/STASH/BAIDU-IP.js
+  YunPanCellar-Tile:
+    url: https://raw.githubusercontent.com/a661471/Js-re/main/Yunpan-IP.js
     interval: 86400
 
 rules:
-  - DOMAIN-KEYWORD,forge.speedtest.cn,百度免流
+  - DOMAIN-KEYWORD,forge.speedtest.cn,云盘
